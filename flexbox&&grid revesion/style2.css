@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    font-size: 40px;
+}
+
+header ,main, nav, footer{
+    border: 2px solid  red;
+    margin-bottom: 20px;
+}
+
+main, nav{
+    height: 500px;
+}
+
+main{
+    width: 60%;
+}
+
+nav{
+    width: 30%;
+}
+
+.parent{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+}
+@media (max-width:600px){
+    .parent{
+        flex-direction: column;
+    }
+    main{
+        width: 98%;
+    }
+    nav{
+        width: 98%;
+    }
+
+}

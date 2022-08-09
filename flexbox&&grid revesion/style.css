@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    border: red 1px solid;
+    padding: 20px 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* align-content: center; */
+    
+}
+
+.child{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
