@@ -1,0 +1,7 @@
+.div1{
+    /* display: none;
+     */
+    /* display none hide the element and the position gone away */
+    /* visibility hide the elment but reserve the position */
+    visibility: hidden;
+}

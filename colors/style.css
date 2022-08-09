@@ -1,0 +1,32 @@
+/* *{
+    padding :0px;
+    margin:0px;
+    font-family: monospace;
+} */
+
+ html{
+
+    font-family: monospace;
+} 
+h1{
+    border: 5px double blue;
+    width: 50%;
+    font-size: 3rem;
+    /* em here look at the element  font size (1em=3rem) in this case */
+    padding: .5em;
+}
+main{
+    width: 50vw;
+    font-size: 1rem;
+} 
+/* rem look at the root font size */
+/* em look at the parent element font size */
+p{
+    font-size: 2em;
+    color: #333;
+    /* this make the line contain 20 character in the line */
+    width: 20ch;
+   
+    
+    /* text-align:justify;   this make all the line have the same width*/
+}

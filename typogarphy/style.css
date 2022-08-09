@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body{
+    padding:25%;
+    font-size: 2rem;
+    color: purple;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* form elements do not inherit the font size from the body */
+/* to make it inherit use (inherit) value to the font property */
+
+
+
+/* input, button{
+    font:inherit;
+} */
+
+p{
+    line-height: 1.5;
+    word-spacing: 1em;
+    /* font-weight:lighter; */
+    /* font-style:oblique; */
+
+}
