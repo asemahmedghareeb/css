@@ -1,0 +1,4 @@
+to inherit any property that in default not inherit from the parent element  you can use 
+(inherit) as a value of this property
+
+
