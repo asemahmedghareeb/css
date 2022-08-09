@@ -1,0 +1,72 @@
+/* *{
+    background-color: red;
+} */
+
+
+/* span , li.red{
+    background-color: orange;
+} */
+
+
+/* li:hover{
+    color: yellow;
+}
+
+input:focus{
+    background-color: red;
+}
+div b{
+    background-color: purple;
+}
+
+/* direct child selector */
+span>b{
+    background-color: yellow;
+}
+
+
+
+/* this will select the list items after the one which have class "red"  and this called "sibling selector" */
+
+
+/* li.red ~li{
+    background-color: red;
+} */
+
+/* next sipling */
+/* this select the next sibling */
+/* li.red + li{
+    color: white;
+} */
+
+
+
+li:first-child{
+    background-color: red;
+}
+
+li:last-child{
+    background-color: yellow;
+}
+
+li:nth-child(3){
+    background-color: blue;
+}
+
+
+li:not(.red){
+    color:lightblue;
+}
+
+
+/* sudo element */
+
+
+div span::before{
+    content: "before";
+    background-color: purple;
+}
+div span::after{
+    content: "after";
+    background-color: purple;
+}
