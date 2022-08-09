@@ -1,0 +1,48 @@
+body{
+    color: red;
+}
+
+.title{
+    font-size: 6rem;
+}
+
+.subtitle{
+    font-size: 4rem;
+}
+
+@media all and (max-width:500px){
+    body{
+        color: blue;
+    }
+}
+
+
+
+/* when we print the screen the body font color will be blue */
+@media print{
+    body{
+        color: blue;
+    }
+}
+/* land scape in when the height is less than the width */
+@media (orientation:landscape) {
+    .title{
+        color: green;
+    }
+}
+
+/* whem the width is less than the height */
+@media (orientation:portrait){
+    .subtitle{
+        color:cyan;
+    }
+}
+
+/* when the display in portarait and the width is 800px the color will be arange */
+@media (orientation:portrait)and(max-width:800px){
+    .subtitle{
+        color:orange;
+    }
+}
+
+/* " , " represent "or" n*/

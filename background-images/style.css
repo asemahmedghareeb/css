@@ -1,0 +1,41 @@
+.s{
+    height: 600px;
+    width: 300px;
+    border: 5px black solid;
+    background-color:rgba(225, 25, 25, 0.1);
+    background-image: url("download.jpeg");
+    /* this property crop the image if is was bigger than the div  */
+    background-size: cover;
+    /* this show the img actual size */
+    /* background-size: contain; */
+
+    /* you can use pixel to resize the img */
+    /* first number is the height and the second is the widht */
+    background-size: 100px 100px;
+
+    /* this stop repating the image  if it was small*/
+
+    background-repeat: no-repeat;
+
+    /* we use this when we need to repeat the image horizontally */
+
+    /* background-repeat:repeat-x; */
+
+
+    /* we use this when we need to repeat the image vertically */
+
+    /* background-repeat: repeat-y; */
+
+
+    /* to make to image stay when you scroll */
+    /* background-attachment: fixed; */
+
+
+    /* we can change the imag position */
+    /* background-position: center center ; */
+
+    /* we can change the position by using pixels */
+    /* we can use precent also  or the both in the same time*/
+
+    background-position :10px 10px;
+}

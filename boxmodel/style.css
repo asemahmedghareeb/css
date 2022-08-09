@@ -1,0 +1,35 @@
+*{
+
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+.container {
+
+    font-size: 1.5rem;
+    padding: 1em;
+    margin:1em;
+    border: 3px dashed blue;
+    /* border-top: dotted ;
+    border-right: solid red;
+    border-style: double;
+    border-radius: 20px;
+    border-top-color: #16619e;  */
+    outline: 5px solid purple;
+
+    outline-offset: 5px;
+    /* the positive value make in side the box */
+    outline-offset: -20px;
+    /* the negative value make it outside side the box */
+}
+
+.circle{
+    background-color: gold;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
+    outline: 2px solid red;
+    outline-offset: .24rem;
+}
